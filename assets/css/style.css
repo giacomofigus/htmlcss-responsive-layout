@@ -81,10 +81,10 @@ header nav span{
 
 .row-1, .row-2{
     display: flex;
-    gap: 10px;
+    
 
     border: 2px solid blue;
-    width: 200px;
+    width: 900px;
 }
 
 .box{
