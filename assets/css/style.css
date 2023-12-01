@@ -80,7 +80,9 @@ header nav span{
 }
 
 
-.row-1, .row-2{
+.planning-section .row-1,
+.planning-section .row-2
+{
     display: flex;
     justify-content: space-between;
 
@@ -89,71 +91,21 @@ header nav span{
     padding: 20px;
 }
 
-.box{
-    border: 1px solid lime;
+.planning-section .row-1 .box,
+.planning-section .row-2 .box
+{
+    background-color: #B5DDFF;
+    padding: 25px;
 }
 
-.box-big{
+.planning-section .row-1 .box-big{
     width: 65%;
 }
 
-.box-small{
+.planning-section .row-1 .box-small,
+.planning-section .row-2 .box-small{
     width: 30%;
 }
-
-
-
-/* section .planning-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
-    
-    border: 1px solid red;
-    margin-top: 100px;
-    
-}
-
-section .planning-container .row{
-    display: flex;
-    gap: 15px;
-    width: 900px;
-    border: 1px solid blue;
-}
-
-section .planning-container .row .box{
-    background-color: #B5DDFF;
-    border-radius: 20px ;
-    padding: 30px;
-}
-
-/* BOX-1*/
-/* section .planning-container .row .box-1{
-    display: flex;
-    flex: 1 1 70%;
-    padding-bottom: 0;
-}
-section .planning-container .row .box-1 .left-box{
-    
-    width: 50%;
-}
-section .planning-container .row .box-1 .right-box{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-section .planning-container .row .box-1 img{
-    width: 50%;
-} */
-/* Spiegazione: Ho diviso la box in 2 sezioni, la parte di sinistra e destra così che l'immagine si potesse piazzare affiano al tutto, */
-
-/* BOX-2 */
-/* section .planning-container .row .box-2{
-    flex: 1 1 30%;
-} */ 
-
-
 
 
 
