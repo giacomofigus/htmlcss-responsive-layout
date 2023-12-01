@@ -86,7 +86,7 @@ header nav span{
 
     border: 2px solid blue;
     width: 80%;
-    
+    padding: 20px;
 }
 
 .box{
@@ -94,7 +94,7 @@ header nav span{
 }
 
 .box-big{
-    width: 70%;
+    width: 65%;
 }
 
 .box-small{
