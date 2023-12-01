@@ -79,17 +79,18 @@ header nav span{
     margin-top: 120px;
 }
 
+
 .row-1, .row-2{
     display: flex;
     justify-content: space-between;
 
     border: 2px solid blue;
     width: 80%;
+    
 }
 
 .box{
     border: 1px solid lime;
-    padding: 20px;
 }
 
 .box-big{
@@ -97,10 +98,6 @@ header nav span{
 }
 
 .box-small{
-    width: 30%;
-}
-
-.row-2 .box{
     width: 30%;
 }
 
