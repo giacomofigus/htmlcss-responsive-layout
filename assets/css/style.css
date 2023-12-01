@@ -81,10 +81,10 @@ header nav span{
 
 .row-1, .row-2{
     display: flex;
-    
+    justify-content: space-between;
 
     border: 2px solid blue;
-    width: 900px;
+    width: 80%;
 }
 
 .box{
@@ -93,15 +93,15 @@ header nav span{
 }
 
 .box-big{
-    flex-basis: 70%;
+    width: 70%;
 }
 
 .box-small{
-    flex: 1 1 30%;
+    width: 30%;
 }
 
 .row-2 .box{
-    flex: 1 1 30%;
+    width: 30%;
 }
 
 
