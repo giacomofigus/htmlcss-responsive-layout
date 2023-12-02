@@ -73,10 +73,8 @@ header nav span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-
-    border: 1px solid red;
-    margin-top: 120px;
+    
+    margin-top: 80px;
 }
 
 
@@ -86,8 +84,8 @@ header nav span{
     display: flex;
     justify-content: space-between;
 
-    border: 2px solid blue;
-    width: 80%;
+    
+    width: 90%;
     padding: 20px;
 }
 
@@ -95,18 +93,107 @@ header nav span{
 .planning-section .row-2 .box
 {
     background-color: #B5DDFF;
-    padding: 25px;
+    
+    border-radius: 20px;
 }
 
 .planning-section .row-1 .box-big{
+    display: flex;
+
     width: 65%;
 }
 
 .planning-section .row-1 .box-small,
 .planning-section .row-2 .box-small{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-block: 50px;
 }
 
+.planning-section .row-1 .box-small h2,
+.planning-section .row-2 .box-small h2
+{
+    color: #0084FD; 
+    margin-top: 20px;
+}
+
+.planning-section .row-1 .box-small i,
+.planning-section .row-2 .box-small i
+{
+    color: #0084FD;
+    font-size: 80px;
+}
+
+.planning-section .row-1 .box-small p,
+.planning-section .row-2 .box-small p
+{
+    color: #5A6E7F;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.planning-section .row-1 .box .left-box,
+.planning-section .row-1 .box .right-box
+{
+    display: flex;
+    width: 50%;
+    padding: 30px;
+}
+
+.planning-section .row-1 .box .left-box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.planning-section .row-1 .box .left-box h3{
+    color: #0084FD;
+    font-size: 25px;
+}
+
+.planning-section .row-1 .box .left-box p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #5A6E7F;
+}
+
+.planning-section .row-1 .box .left-box a{
+    background-color: #0084FD;
+    color: white;
+    width: 180px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.planning-section .row-1 .box .left-box i{
+    margin-right: 10px;
+}
+
+.planning-section .row-1 .box .right-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+    padding-bottom: 0;
+}
+
+
+.planning-section .row-1 .box .right-box img{
+    margin-top: 40px;
+    width: 80%;
+    
+}
 
 
 
@@ -150,5 +237,28 @@ MEDIA QUERIES
     
     
     /* PANNING SECTION */
-    
+    .planning-section .row-1 .box-big{
+        display: block;
+    }
+
+    .planning-section .row-1 .box .left-box,
+    .planning-section .row-1 .box .right-box
+    {
+        display: flex;
+        width: 100%;
+    }
+
+    .planning-section .row-1 .box .left-box{
+        gap: 30px;
+    }
+
+    .planning-section .row-1 .box .right-box img{
+        margin-top: 0;
+        width: 60%; 
+    }
+
+    .planning-section .row-1 .box .right-box{
+        justify-content: flex-start;
+        flex-direction: row;
+    }
 }
