@@ -1,4 +1,4 @@
-*{
+S*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -74,7 +74,7 @@ header nav span{
     justify-content: center;
     align-items: center;
     
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 
@@ -110,7 +110,7 @@ header nav span{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-block: 50px;
+    padding-block: 30px;
 }
 
 .planning-section .row-1 .box-small h2,
@@ -132,7 +132,7 @@ header nav span{
 {
     color: #5A6E7F;
     margin-top: 20px;
-    padding: 20px;
+    padding: 25px;
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
@@ -149,7 +149,7 @@ header nav span{
 .planning-section .row-1 .box .left-box{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 
 .planning-section .row-1 .box .left-box h3{
@@ -245,7 +245,7 @@ MEDIA QUERIES
     .planning-section .row-1 .box .right-box
     {
         display: flex;
-        width: 100%;
+        width: 85%;
     }
 
     .planning-section .row-1 .box .left-box{
@@ -261,4 +261,62 @@ MEDIA QUERIES
         justify-content: flex-start;
         flex-direction: row;
     }
+
+    
+}
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 480px){
+    /* PLANNING SECTION */
+    .planning-section .row-1,
+    .planning-section .row-2
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .planning-section .row-1 .box-small,
+    .planning-section .row-2 .box-small
+    {
+        width: 90%;
+    } 
+
+    .planning-section .row-1 .box-big{
+        display: block;
+    
+        width: 90%;
+    }
+
+    .planning-section .row-1 .box .left-box,
+    .planning-section .row-1 .box .right-box{
+        width: 80%;
+    }
+
+    .planning-section .row-1 .box .left-box{
+        gap: 0;
+    }
+
+    .planning-section .row-1 .box .left-box h3{
+        justify-content: center;
+    }
+
+    .planning-section .row-1 .box .right-box{
+        justify-content: center;
+    
+        padding-bottom: 0;
+    }
+    
+    .planning-section .row-1 .box-small p,
+    .planning-section .row-2 .box-small p
+    {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .planning-section .row-1 .box .right-box img{
+        width: 100%;
+    }
+
 }
