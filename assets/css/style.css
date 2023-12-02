@@ -1,4 +1,4 @@
-S*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -195,6 +195,89 @@ header nav span{
     
 }
 
+/* SECOND SECTION */
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 80px;
+    background-color:#9792E4 ;
+}
+
+.second-section .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid blue;
+    width: 70%;
+    padding: 20px;
+}
+
+.second-section .wrapper .block-1,
+.second-section .wrapper .block-2{
+    border: 1px solid red;
+    margin-inline: 50px;
+}
+
+/* DIMENSIONI BLOCCHI */
+.second-section .wrapper .block-1{
+    width: 32%;
+    color: white;
+}
+
+.second-section .wrapper .block-2{
+    width: 30%;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+/* IMG STYLE */
+.second-section .wrapper .block-1 img,
+.second-section .wrapper .block-2 img{
+    width: 100%;
+}
+
+.second-section .wrapper .block-1 img{
+    padding-block: 80px;
+}
+
+.second-section .wrapper .block-2 img{
+    padding-bottom: 15px;
+}
+
+/* TEXT STYLE */
+.second-section .wrapper .block-1 h3{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.second-section .wrapper .block-1 p{
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.second-section .wrapper .block-2 h3{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.second-section .wrapper .block-2 p{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.second-section .wrapper .block-2 a{
+    background-color: #9792E4;
+    border-radius: 60%;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+}
 
 
 
@@ -232,8 +315,6 @@ MEDIA QUERIES
         color: white;
         font-size: 30px;
     }
-
-    /* Rimane invariato sia per tablet che mobile */
     
     
     /* PANNING SECTION */
@@ -260,6 +341,23 @@ MEDIA QUERIES
     .planning-section .row-1 .box .right-box{
         justify-content: flex-start;
         flex-direction: row;
+    }
+
+    /* SECOND SECTION */
+    .second-section .wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .second-section .wrapper .block-1,
+    .second-section .wrapper .block-2{
+        width: 90%;
+    }
+
+    .second-section .wrapper .block-1 h3{
+        font-size: 60px;
     }
 
     
@@ -317,6 +415,11 @@ MEDIA QUERIES
 
     .planning-section .row-1 .box .right-box img{
         width: 100%;
+    }
+
+    /* SECOND SECTION */
+    .second-section .wrapper .block-1 h3{
+        font-size: 30px;
     }
 
 }
