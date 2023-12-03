@@ -423,6 +423,7 @@ header nav span{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-block: 50px;
 }
 
 .about-us-section .container{
@@ -485,6 +486,92 @@ header nav span{
     padding: 10px;
     border-radius: 15px;
     
+}
+
+
+/******************** CTA SECTION ***********************/
+.cta-section{
+    display: flex;
+    justify-content: center;
+    background-color: #9792E4;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.cta-section .top-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-section .top-container h4{
+    color:  rgba(255, 255, 255, 0.541);
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.cta-section .top-container h3{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta-section .top-container h2{
+    color: #FDC15F;
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.cta-section .top-container p{
+    color: white;
+    width: 60%;
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.cta-section .top-container > a{
+    background-color: white;
+    border-radius: 60px;
+    padding: 20px 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #9792E4;
+    margin-bottom: 30px;
+}
+
+.cta-section .top-container span{
+    color: white;
+}
+
+.cta-section .top-container span > a{
+    text-decoration: underline;
+    color: white;
+}
+
+
+/***************** FOOTER *******************/
+footer{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-block: 50px;
+    gap: 50px;
+}
+
+footer p{
+    width: 30%;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #9792E4;
 }
 
 
@@ -744,5 +831,35 @@ MEDIA QUERIES
 
     .about-us-section .container .right-section{
         margin-top: 0;
+    }
+
+
+    /****************** CTA SECTION *********************/
+    .cta-section .top-container h4{
+        font-size: 18px;
+    }
+    
+    .cta-section .top-container h3{
+        color: white;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .cta-section .top-container h2{
+        color: #FDC15F;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .cta-section .top-container p{
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    /******************* FOOTER *********************/
+    footer p{
+        width: 80%;
     }
 }
